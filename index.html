@@ -3,13 +3,31 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			@import "styles.css";
+		</style>
 		<title>Draggable Menu | Menu</title>
 	</head>
 	<body>
 		<div class="menu-drop-zone"></div>
 
 		<div class="menu-drawer">
-			<div class="menu-logo"></div>
+			<div class="menu-logo">
+				<img src="google.png" alt="Google" />
+			</div>
+			<div class="menu-items">
+				<div class="menu-item">
+					<a href="#">Work</a>
+				</div>
+				<div class="menu-item">
+					<a href="/manifesto">Manifesto</a>
+				</div>
+				<div class="menu-item">
+					<a href="/contact">Contact</a>
+				</div>
+
+				<div class="menu-toggler"><span></span><span></span></div>
+			</div>
 		</div>
 		<script src="script.js"></script>
 	</body>
